@@ -11,6 +11,9 @@ body {
     cursor: pointer;
     
   }
+  ul li:hover{
+   color: rgb(66, 45, 45)
+  }
  .header{
     display: flex;
  }
