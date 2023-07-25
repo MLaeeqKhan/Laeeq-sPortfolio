@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: black;
     color: white;
+    font-family: 'Roboto Condensed', sans-serif;
   }
   ul li{
     list-style: none;
