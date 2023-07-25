@@ -52,10 +52,12 @@ body {
     color: white;
     font-size: 24px;
     font-weight: bold;
+    z-index: 1;
   }
   .content{
     font-size: 24px;
     font-weight: bold;
+    z-index: 1;
   }
  
   .thirdSection{
