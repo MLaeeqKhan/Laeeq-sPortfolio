@@ -14,6 +14,10 @@ body {
   ul li:hover{
    color: rgb(66, 45, 45)
   }
+  a{
+    text-decoration: none;
+    color: white;
+  }
  .header{
     display: flex;
  }
@@ -22,7 +26,7 @@ body {
     background-size: cover;
     background-position: center;
     width: 80%;
-    height: 80vh;
+    height: 88vh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -75,7 +79,7 @@ body {
      margin: 25px 0px 35px 0px;
   }
   
-  nav img {
+   img {
     display: block; 
     margin: 0 auto; 
     width: 80px;
@@ -98,5 +102,71 @@ body {
 }
 hr{
     background-color:grey;
-    height: 10px;
+    width: 60vw;
+    height: 5px;
+}
+.secondSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom:50px ; */
+}
+.secondSection h2{
+  margin-bottom: 40px;
+}
+.experience{
+  display: flex;
+  background-color: aqua;
+  width: 80vw;
+  height: 2px;
+  margin-bottom: 100px;
+  /* height: 60vh; */
+}
+.flow{
+  background-color:aqua;
+  /* color: aqua; */
+  width: 2px;
+  height: 60px;
+  margin: 0px 45px;
+  font-size: 10px;
+}
+.semester{
+  position: relative;
+  top: -25px;
+}
+.semesterDesc{
+position: relative;
+top: 40px;
+width: 80px;
+padding-bottom: 50px;
+
+}
+.AboutMe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+.aboutMeInner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(28, 27, 27);
+  border-radius: 20px;
+  padding-top: 10px;
+  width: 80vw;
+  height: 70vh;
+}
+.desc p{
+ margin: 20px;
+ 
+}
+.desc ul li{
+list-style:square;
+color: aqua;
+margin-bottom: 5px;
 }
