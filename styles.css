@@ -5,6 +5,25 @@ body {
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
   }
+  html{
+    font-size:100%;
+}
+@media(max-width:320px){
+    html{
+        font-size: 45%;
+    }
+    
+}
+@media(max-width:375px){
+  html{
+      font-size: 55%;
+  }
+}
+@media(max-width:425px){
+    html{
+        font-size: 65%;
+    }
+}
   ul li{
     list-style: none;
     margin:0px 25px 0px 0px;
@@ -26,7 +45,7 @@ body {
     background-size: cover;
     background-position: center;
     width: 80%;
-    height: 88vh;
+    height: 34rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -79,7 +98,7 @@ body {
      margin: 25px 0px 35px 0px;
   }
   
-   img {
+   nav img {
     display: block; 
     margin: 0 auto; 
     width: 80px;
@@ -110,7 +129,6 @@ hr{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-bottom:50px ; */
 }
 .secondSection h2{
   margin-bottom: 40px;
@@ -121,11 +139,9 @@ hr{
   width: 80vw;
   height: 2px;
   margin-bottom: 100px;
-  /* height: 60vh; */
 }
 .flow{
   background-color:aqua;
-  /* color: aqua; */
   width: 2px;
   height: 60px;
   margin: 0px 45px;
@@ -148,8 +164,6 @@ padding-bottom: 50px;
   justify-content: center;
   align-items: center;
   background-color: black;
-  width: 100vw;
-  height: 100vh;
 }
 .aboutMeInner{
   display: flex;
@@ -158,8 +172,8 @@ padding-bottom: 50px;
   background-color: rgb(28, 27, 27);
   border-radius: 20px;
   padding-top: 10px;
-  width: 80vw;
-  height: 70vh;
+  margin: 5rem;
+ 
 }
 .desc p{
  margin: 20px;
@@ -169,4 +183,38 @@ padding-bottom: 50px;
 list-style:square;
 color: aqua;
 margin-bottom: 5px;
+}
+.aboutMeInner img{
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+  width: 80px;
+  height: 80px;
+  border: 8px solid rgb(53, 46, 46);
+  border-radius:50px;
+  
+}
+.servicesInner{
+  display: flex;
+  flex-wrap:wrap;
+  /* margin: 5rem; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: beige; */
+  width: 100vw;
+  height:  100vh;
+}
+.card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(17, 27, 27);
+  border-radius: 20px;
+  width:12rem;
+  height: 15rem;
+  margin: 0rem 4rem;
+  padding: 10px;
+}
+.card h2{
+  color: aqua;
 }
