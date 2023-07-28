@@ -45,7 +45,8 @@ body {
     background-size: cover;
     background-position: center;
     width: 80%;
-    height: 34rem;
+    height: 80vh;
+    /* height: 34rem; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -84,13 +85,21 @@ body {
   }
  
   .thirdSection{
-    position: relative;
+    position:relative;
     background-color: black;
     width: 300px;
     height: 100%;
     padding: 15px;
+    /* z-index: -1; */
   }
- 
+ .outerThirdSection{
+  position: fixed;
+  height: 80vh;
+  /* font-size: 40px; */
+ }
+ /* .outerThirdSection{
+
+ } */
   .contactLinks{
     display: flex;
     
@@ -229,6 +238,9 @@ padding-bottom: 50px;
   align-items: center;
   width: 90vw;
   margin: 2rem 0rem ;
+  position: relative;
+  right: -10rem;
+  width: 70vw;
 }
 .experienceCard{
   display: flex;
