@@ -1,149 +1,149 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  html{
-    font-size:100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
 }
-@media(max-width:320px){
-    html{
-        font-size: 45%;
-    }
-    
+html {
+  font-size: 100%;
 }
-@media(max-width:375px){
-  html{
-      font-size: 55%;
+@media (max-width: 320px) {
+  html {
+    font-size: 45%;
   }
 }
-@media(max-width:425px){
-    html{
-        font-size: 65%;
-    }
+@media (max-width: 375px) {
+  html {
+    font-size: 55%;
+  }
 }
-  ul li{
-    list-style: none;
-    margin:0px 25px 0px 0px;
-    cursor: pointer;
-    
+@media (max-width: 425px) {
+  html {
+    font-size: 65%;
   }
-  ul li:hover{
-   color: rgb(66, 45, 45)
-  }
-  a{
-    text-decoration: none;
-    color: white;
-  }
- .header{
-    display: flex;
- }
-  .firstSection {
-    background-image: url('laeeq2.jpg'); 
-    background-size: cover;
-    background-position: center;
-    width: 80%;
-    height: 80vh;
-    /* height: 34rem; */
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+}
+.contactLinks li {
+  list-style: none;
+  margin: 0px 25px 0px 0px;
+  cursor: pointer;
+}
+.contactLinks li:hover {
+  color: rgb(177, 175, 175);
+  transform: scale(1.1);
+  transition: linear 0.3s;
+}
+.pages li {
+  list-style: none;
+  margin: 0px 25px 0px 0px;
+  cursor: pointer;
+}
+.pages li:hover {
+  color: rgb(177, 175, 175);
+  transform: scale(1.1);
+  transition: linear 0.3s;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.header {
+  display: flex;
+}
+.firstSection {
+  background-image: url("laeeq2.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-    overflow: hidden;
-  }
-  .firstSection::before {
-    content: "";
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    z-index: 1;
-  }
-  .typed-text{
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    z-index: 1;
-  }
-  .content{
-    font-size: 24px;
-    font-weight: bold;
-    z-index: 1;
-  }
- 
-  .thirdSection{
-    position:relative;
-    background-color: black;
-    width: 300px;
-    height: 100%;
-    padding: 15px;
-    /* z-index: -1; */
-  }
- .outerThirdSection{
+  overflow: hidden;
+}
+.firstSection::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
+.typed-text {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 1;
+}
+.content {
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.thirdSection {
+  position: relative;
+  background-color: black;
+  width: 300px;
+  height: 100%;
+  padding: 15px;
+}
+.outerThirdSection {
   position: fixed;
   height: 80vh;
-  /* font-size: 40px; */
- }
- /* .outerThirdSection{
-
- } */
-  .contactLinks{
-    display: flex;
-    
-    align-items: flex-start;
-     margin: 25px 0px 35px 0px;
-  }
-  
-   nav img {
-    display: block; 
-    margin: 0 auto; 
-    width: 80px;
-    height: 80px;
-    border: 8px solid rgb(53, 46, 46);
-    border-radius:50px;
-
-  }
-  .name{
-    text-align: center;
-   padding: 15px;
-  }
-  .pages li{
-    margin: 20px 0px 20px 0px ;
-  }
-  .contactLinks li i,
+}
+.contactLinks {
+  display: flex;
+  align-items: flex-start;
+  margin: 25px 0px 35px 0px;
+}
+nav img {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  border: 8px solid rgb(53, 46, 46);
+  border-radius: 50px;
+}
+.name {
+  text-align: center;
+  padding: 15px;
+}
+.pages li {
+  margin: 20px 0px 20px 0px;
+}
+.contactLinks li i,
 .pages li i {
   font-size: 18px;
   margin-right: 5px;
 }
-hr{
-    background-color:grey;
-    width: 60vw;
-    height: 5px;
-    position: relative;
-    right: -9rem;
+hr {
+  background-color: grey;
+  width: 60vw;
+  height: 5px;
+  position: relative;
+  right: -9rem;
 }
-
-.AboutMe{
+.AboutMe {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: black;
 }
-.aboutMeInner{
+.aboutMeInner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,117 +151,155 @@ hr{
   border-radius: 20px;
   padding-top: 10px;
   margin: 5rem;
- 
 }
-.desc p{
- margin: 20px;
- 
+.desc p {
+  margin: 20px;
 }
-.desc ul li{
-list-style:square;
-color: aqua;
-margin-bottom: 5px;
+.desc ul li {
+  list-style: square;
+  color: aqua;
+  margin-bottom: 5px;
 }
-.aboutMeInner img{
+.aboutMeInner img {
   position: absolute;
   top: 3rem;
   left: 2rem;
   width: 80px;
   height: 80px;
   border: 8px solid rgb(53, 46, 46);
-  border-radius:50px;
-  
+  border-radius: 50px;
 }
-.mainServices{
+.mainServices {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.servicesInner{
+.servicesInner {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 90vw;
-  margin: 8rem 0rem ;
+  margin: 8rem 0rem;
 }
-.card{
+.card {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-self: center;
   background-color: rgb(17, 27, 27);
   border-radius: 20px;
-  width:18rem;
+  width: 18rem;
   height: 23rem;
-  margin:  0.4rem;
+  margin: 0.4rem;
   padding: 15px 0px;
 }
-.card h2{
+.card h2 {
   color: aqua;
 }
-.card ul li{
-  list-style:square;
+.card ul li {
+  list-style: square;
   color: white;
   margin-bottom: 10px;
-cursor:default;
+  cursor: default;
 }
-.card i{
+.card i {
   font-size: 2.5rem;
   color: aqua;
 }
-.experience{
+.experience {
   display: flex;
   background-color: aqua;
-  width:18rem;
+  width: 18rem;
   height: 2px;
   margin-top: 30px;
   margin-bottom: 100px;
 }
-.flow{
-  background-color:aqua;
+.flow {
+  background-color: aqua;
   width: 2px;
   height: 60px;
   margin: 0px 45px;
 }
-.semester{
+.semester {
   position: relative;
   top: -35px;
 }
-.semesterDesc{
+.semesterDesc {
   position: relative;
-top: 40px;
-width: 100px;
-padding-bottom: 50px;
+  top: 40px;
+  width: 100px;
+  padding-bottom: 50px;
 }
-.experienceInner{
+.experienceInner {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 90vw;
-  margin: 2rem 0rem ;
+  margin: 2rem 0rem;
   position: relative;
   right: -10rem;
   width: 52vw;
 }
-.experienceCard{
+.experienceCard {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-self: center;
   border-radius: 20px;
-  width:18rem;
+  width: 18rem;
   height: 23rem;
   padding: 15px 0px;
 }
-.section4{
+.section4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.semesterDesc p{
+.semesterDesc p {
   font-weight: 50px;
   font-size: 10px;
+}
+
+.aboutBody {
+  background: black;
+}
+.aboutMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+.video {
+  width: 33rem;
+  height: 16rem;
+  margin: 1.5rem;
+  border: 2px solid aqua;
+  border-radius: 10px;
+}
+.aboutCard {
+  position: relative;
+  width: 40rem;
+  height: 20rem;
+  border-color: antiquewhite;
+}
+.content-overlay {
+  position: absolute;
+  bottom: 3rem;
+  left: 6rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 0 10px 0 10px;
+  border-radius: 10px;
+}
+.content-overlay h3 {
+  width: 22rem;
+  color: aqua;
 }
